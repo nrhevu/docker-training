@@ -1,7 +1,7 @@
 # Phần 1
 
 ## Kéo 1 image từ Docker Hub
-Kéo image `` từ Docker hub
+Kéo image `nrhevu/docker-training-s1` từ Docker Hub. Nếu sử dụng chip Intel, AMD thì kéo image `nrhevu/docker-training-s1:amd` về. Nếu sử dụng chip Apple Silicon hay Snapdragon thì kéo image `nrhevu/docker-training-s1:arm` về.
 
 Câu lệnh sử dụng:
 ```
@@ -15,7 +15,7 @@ Kết quả hiển thị trên màn hình:
 ```
 
 ## Chạy một image
-Chạy image `j` thành container sử dụng câu lệnh `docker run`
+Chạy image `nrhevu/docker-training-s1` thành container sử dụng câu lệnh `docker run`
 
 Kết quả hiển thị trên màn hình:
 ```
@@ -26,7 +26,7 @@ Kết quả hiển thị trên màn hình:
 Dừng và xoá container đang chạy
 
 ## Chạy image với câu lệnh chỉ định
-Chạy image `j` với câu lệnh `python test_custom.py`
+Chạy image `nrhevu/docker-training-s1` với câu lệnh `python test_custom.py`
 
 Kết quả hiển thị trên màn hình:
 ```
