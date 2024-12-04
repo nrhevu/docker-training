@@ -1,4 +1,5 @@
 # Phần 1
+Chạy 1 vài câu lệnh cơ bản với Docker.
 
 ## Kéo 1 image từ Docker Hub
 Kéo image `nrhevu/docker-training-s1` từ Docker Hub. Nếu sử dụng chip Intel, AMD thì kéo image `nrhevu/docker-training-s1:amd` về. Nếu sử dụng chip Apple Silicon hay Snapdragon thì kéo image `nrhevu/docker-training-s1:arm` về.
