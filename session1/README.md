@@ -25,6 +25,11 @@ Kết quả hiển thị trên màn hình:
 ## Dừng / Xóa một container
 Dừng và xoá container đang chạy
 
+Câu lệnh sử dụng:
+```
+...
+```
+
 ## Chạy image với câu lệnh chỉ định
 Chạy image `nrhevu/docker-training-s1` với câu lệnh `python test_custom.py`
 
@@ -55,6 +60,11 @@ Nội dung trong file `volume.txt`:
 ## Chạy một image ở chế độ ngầm (background)
 Chạy image `nrhevu/docker-training-s1` với câu lệnh `python test_api.py` ở chế độ ngầm.
 
+Câu lệnh sử dụng:
+```
+...
+```
+
 ## Xem logs của một container Docker đang chạy
 Show log của container vừa chạy
 
@@ -64,7 +74,7 @@ Kết quả hiển thị trên màn hình:
 ```
 
 ## Mở cổng cho Docker
-Chạy image `nrhevu/docker-training-s1` với câu lệnh `python test_api.py` và tạo thông kết nối đến cổng 8888 trong container. Sử dụng câu lệnh `curl` hoặc ứng dụng Postman để gọi API được cài trong Docker.
+Chạy image `nrhevu/docker-training-s1` với câu lệnh `python test_api.py` và tạo thông kết nối đến cổng 8888 trong container. Sử dụng câu lệnh `curl localhost:8888` hoặc ứng dụng Postman để gọi API được cài trong Docker.
 
 
 Kết quả hiển thị trên màn hình:
@@ -83,3 +93,8 @@ Nội dung của File:
 
 ## Sao chép tệp từ/vào một container Docker
 Lấy file `starter.txt` ra bên ngoài container
+
+Nội dung của File: 
+```
+...
+```
