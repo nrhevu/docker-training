@@ -17,7 +17,14 @@ docker pull nrhevu/docker-training-s1:amd
 Kết quả hiển thị trên màn hình:
 
 ```
-docker image ls
+> docker image ls
+
+REPOSITORY                   TAG             IMAGE ID       CREATED        SIZE
+nrhevu/docker-training-s1    amd             f413332958a8   9 hours ago    803MB
+nghiaphunng18/mukapet-demo   0.0.2           d8c9bc2f20ba   3 weeks ago    561MB
+mukapet-demo                 0.0.2           d8c9bc2f20ba   3 weeks ago    561MB
+<none>                       <none>          492c77406142   3 weeks ago    561MB
+mysql                        8.0.36-debian   81112135876a   8 months ago   601MB
 ```
 
 ## Chạy một image
@@ -27,7 +34,8 @@ Chạy image `nrhevu/docker-training-s1` thành container sử dụng câu lện
 Kết quả hiển thị trên màn hình:
 
 ```
-docker run nrhevu/docker-training-s1:amd
+> docker run nrhevu/docker-training-s1:amd
+hello world!
 ```
 
 ## Dừng / Xóa một container
@@ -58,7 +66,8 @@ docker run -d nrhevu/docker-training-s1:amd python test_custom.py
 Kết quả hiển thị trên màn hình:
 
 ```
-docker ps
+ > docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 ## Chạy một image với câu lệnh volume
