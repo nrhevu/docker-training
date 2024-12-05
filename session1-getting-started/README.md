@@ -57,8 +57,17 @@ Chạy image `nrhevu/docker-training-s1` với câu lệnh `python test_custom.p
 Kết quả hiển thị trên màn hình:
 
 ```
-docker run -d nrhevu/docker-training-s1:amd python test_custom.py
- > 79c65dde39ed5e3c65117a1336166398939f4ab117e12bed51b9c7fa18944ff5
+docker run nrhevu/docker-training-s1:amd python test_custom.py
+ >
+                                       ._ o o
+                                       \_`-)|_
+                                    ,""       \
+                                  ,"  ## |   ಠ ಠ.
+                                ," ##   ,-\__    `.
+                              ,"       /     `--._;)
+                            ,"     ## /
+                          ,"   ##    /
+
 ```
 
 ## Hiển thị các container Docker đang chạy
